@@ -51,8 +51,8 @@ public class DataManager : MonoBehaviour, IManager
         _state = "Data Manager initialized..";
         Debug.Log(_state);
 
-        //FilesystemInfo();
-        //NewDirectory();
+        FilesystemInfo();
+        NewDirectory();
         //DeleteDirectory();
         //NewTextFile();
         //UpdateTextFile();
@@ -63,8 +63,8 @@ public class DataManager : MonoBehaviour, IManager
         //ReadFromStream(_xmlLevelProgress);
         //SerializeXML();
         //DeserializeXML();
-        SerializeJSON();
-        DeserializeJSON();
+        //SerializeJSON();
+        //DeserializeJSON();
     }
 
     public void FilesystemInfo()
